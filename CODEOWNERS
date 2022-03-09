@@ -13,3 +13,4 @@
 
 # Global rule:
 *                               @department-of-veterans-affairs/lighthouse-bandicoot
+/plugins/null/	@department-of-veterans-affairs/null
