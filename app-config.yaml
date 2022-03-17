@@ -94,9 +94,9 @@ auth:
         clientId: ${GH_CLIENT_ID}
         clientSecret: ${GH_CLIENT_SECRET}
 scaffolder:
-  # github:
-  #   token: ${GH_TOKEN}
-  #   visibility: public # or 'internal' or 'private'
+  github:
+    token: ${GH_TOKEN}
+    visibility: public # or 'internal' or 'private'
 catalog:
   processors:
     githubOrg:
