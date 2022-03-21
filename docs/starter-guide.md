@@ -12,8 +12,6 @@ Learn more about the [software catalog](https://backstage.io/docs/features/softw
 # Adding a catalog entity
 In the Lighthouse developer portal, you can <a href="/catalog-import.htm">add entities manually</a>, including files, repositories, and [TechDocs](#adding-techdocs). To do this, you'll need to [create a catalog entity descriptor file](##creating-a-catalog-entity-descriptor-file) or [add an existing one](##add-an-existing-gatalog-entity-descriptor-file). 
 
-The portal identifies catalog entities by scanning every repository in an organization and looking for a `catalog-info.yaml` file in the root of the repository. The `catalog-info.yaml` file is a catalog entity descriptor file that identifies which repositories contain catalog entities and provides helpful information for others who may wish to use your application. 
-
 ## Creating a catalog entity descriptor file
 
 In the root directory of your application, create a `catalog-info.yaml` file. 
@@ -25,7 +23,7 @@ In the root directory of your application, create a `catalog-info.yaml` file.
 
 To add an entity, you'll need to link to the code source. You can link to an existing file, repository, or TechDoc. The <a href="/catalog-import.htm">catalog import wizard</a> will confirm if the entity was added correctly or if there was an error. 
 
-It may take up to 10 minutes for a newly registered entity to appear in the catalog. You can verify the entity was added by <a href="/catalog?filters%5Bkind%5D=api&filters%5Buser%5D=all.htm">searching the catalog</a>.
+It may take up to 10 minutes for a newly registered entity to appear in a search of the catalog. You can verify the entity was added by <a href="/catalog?filters%5Bkind%5D=api&filters%5Buser%5D=all.htm">searching the catalog</a>.
 
 From here, you can: 
 - <a href="/catalog-import.htm">Add an entity to the catalog</a>
